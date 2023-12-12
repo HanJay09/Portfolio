@@ -45,7 +45,7 @@ const TAB_DATA = [
                 <li>UCSI International Highschool</li>
           </ul>
         ),
-    }
+    },
     {
         title: "Interest",
         id: "interest",

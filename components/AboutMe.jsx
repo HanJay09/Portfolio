@@ -46,6 +46,16 @@ const TAB_DATA = [
           </ul>
         ),
     }
+    {
+        title: "Interest",
+        id: "interest",
+        content: (
+          <ul className="list-disc pl-2">
+            <li>Gaming</li>
+            <li>Stock Trading</li>
+          </ul>
+        ),
+    },
 ];
 //1
 const AboutMe = () => {
@@ -95,6 +105,13 @@ const AboutMe = () => {
                             Education{" "}
                         </TabButton>
                         
+                        <TabButton 
+                        selectTab={() => handleTabChange("interest")}
+                        active= {tab === "interest"}
+                        >
+                            {" "}
+                            Interest{" "}
+                        </TabButton>
                     </div>
                     <div className="mt-8">{TAB_DATA.find((t) => t.id === tab).content}</div>
                 </div>

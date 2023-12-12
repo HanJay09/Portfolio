@@ -11,7 +11,6 @@ const TAB_DATA = [
           <ul className="list-disc pl-2">
                 <li>Next.js</li>
                 <li>JavaScript</li>
-                <li>Solidity</li>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Java Programming</li>
@@ -27,15 +26,11 @@ const TAB_DATA = [
         id: "experiences",
         content: (
           <ul className="list-disc pl-2">
-            <li>ETH Singapore</li>
             <li>ETH KL</li>
-            <li>ETH Online</li>
             <li>ETHGlobal Superhack</li>
             <li>Solana Hyperdrive</li>
             <li>APUBCC Sparkathon</li>
             <li>Encode Club</li>
-            <li>Google CTF</li>
-            <li>NUS Grey CTF</li>
             <li>Tune Protect Hackathon</li>
             <li>geNFesT Ideathon</li>
           </ul>
